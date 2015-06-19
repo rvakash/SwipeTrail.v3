@@ -2,7 +2,7 @@
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:gravity="center"
+
     android:orientation="vertical"
     android:weightSum="1">
 
@@ -11,7 +11,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:textSize="50dp"
-        android:textColor="#ffffffff" />
+        android:textColor="#ffffffff"/>
 
     <RelativeLayout
         android:layout_width="match_parent"
@@ -30,7 +30,7 @@
         <CheckBox
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="First"
+            android:text="Stop Honking!!"
             android:textSize="19dp"
             android:id="@+id/checkBox"
             android:layout_below="@+id/textView5"
@@ -41,7 +41,7 @@
         <CheckBox
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="Second"
+            android:text="Make your own way!"
             android:textSize="19dp"
             android:id="@+id/checkBox2"
             android:layout_below="@+id/checkBox"
@@ -52,7 +52,7 @@
         <CheckBox
            android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="Third"
+            android:text="Catch me if you can ;-)"
             android:textSize="19dp"
             android:id="@+id/checkBox3"
             android:layout_below="@+id/checkBox2"
@@ -65,7 +65,7 @@
         <CheckBox
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="Fourth"
+            android:text="Beeeeep off!!"
             android:textSize="19dp"
             android:id="@+id/checkBox4"
             android:layout_below="@+id/checkBox3"
